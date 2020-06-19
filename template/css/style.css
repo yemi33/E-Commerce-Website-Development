@@ -15,8 +15,8 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #fff;
-  color: #848484;
+  background: black;
+  color: white;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -25,14 +25,14 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #2da9d7;
+  color: goldenrod;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #2da9d7 !important;
+  color: goldenrod !important;
 }
 a:active, a:focus {
   outline: none;
@@ -58,17 +58,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #2da9d7;
+  background: goldenrod;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #2da9d7;
+  background: goldenrod;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #2da9d7;
+  background: goldenrod;
 }
 
 #fh5co-header {
@@ -105,14 +105,24 @@ figure {
   }
 }
 #fh5co-header nav ul li a:hover, #fh5co-header nav ul li a:active, #fh5co-header nav ul li a:focus {
-  color: #000 !important;
+  color: white !important;
   text-decoration: none;
   outline: none;
 }
 #fh5co-header nav ul li.active a {
   text-decoration: line-through !important;
-  color: black !important;
+  color: white !important;
 }
+
+.video {
+  padding-left: 10%;
+  padding-right: 20%;
+  max-width: 100%;
+}
+
+/*Mason Bricks*/
+
+* { box-sizing: border-box;}
 
 .fh5co-projects-feed, .footer-content {
   margin: 0 auto;
@@ -124,7 +134,7 @@ figure {
   margin: 20px 20px 20px;
   width: 290px;
 }
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .fh5co-projects-feed .fh5co-project {
     margin: 10px 10px 10px;
   }
@@ -144,13 +154,13 @@ figure {
   transition: 0.3s;
 }
 .fh5co-projects-feed .fh5co-project > a:hover h2, .fh5co-projects-feed .fh5co-project > a:active h2, .fh5co-projects-feed .fh5co-project > a:focus h2 {
-  color: #000;
+  color:white;
 }
 
 .masonry,
 .masonry .masonry-brick {
-  -webkit-transition-duration: 0.7s;
-  transition-duration: 0.7s;
+  -webkit-transition-duration: .7s;
+  transition-duration: .7s;
 }
 
 .masonry {
@@ -173,7 +183,7 @@ figure {
 .page-content img {
   max-width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 470px) {
   .page-content {
     padding-left: 15px;
     padding-right: 15px;
@@ -192,9 +202,9 @@ figure {
   color: #bfbfbf;
 }
 .page-content .meta a:hover, .page-content .meta a:active, .page-content .meta a:focus {
-  color: #000 !important;
+  color: white !important;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 470px) {
   .page-content {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -204,7 +214,7 @@ figure {
 #fh5co-footer {
   float: left;
   width: 100%;
-  background: #ebebeb;
+  background:black;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -214,7 +224,7 @@ figure {
   color: #bfbfbf;
 }
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
-  color: #000 !important;
+  color:white !important;
 }
 #fh5co-footer .social {
   margin-top: 20px;
@@ -223,13 +233,20 @@ figure {
   padding: 10px;
   color: #999999 !important;
 }
+
+.cart1 {
+  visibility: visible;
+  padding: 20px;
+  color: goldenrod;
+}
+
 @media screen and (max-width: 480px) {
   #fh5co-footer .social a {
     padding: 5px;
   }
 }
 #fh5co-footer .social a:hover, #fh5co-footer .social a:active, #fh5co-footer .social a:focus {
-  color: #000 !important;
+  color:white !important;
 }
 
 .square {
@@ -254,8 +271,5 @@ figure {
   }
 }
 
-.video {
-  margin-left: 65px;
-}
 
 /*# sourceMappingURL=style.css.map */

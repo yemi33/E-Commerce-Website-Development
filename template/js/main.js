@@ -20,3 +20,12 @@
 	});
 
 })(window.jQuery);
+
+/*
+function( containerWidth ) {
+	if( containerWidth <= 330 ) {
+		return 310;
+	} else {
+		return 330;
+	}
+},
